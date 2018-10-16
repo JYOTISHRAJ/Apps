@@ -1,0 +1,132 @@
+body{
+
+			margin: 0;
+			padding: 0;
+			background:white;
+			font-family: sans-serif;
+		}
+		.card{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 360px;
+			height: 350px;
+			background:white;
+		}
+		.card .image{
+			width: 500px;
+			height: 500px;
+			overflow: hidden;
+			border-radius: 100px;
+		}
+
+		.card .image img{
+			width: 100%;
+			transition: .5s;
+
+		}
+		.card:hover .image img{
+
+			opacity: .5;
+			transform: translateX(50%);
+
+		}
+.card .details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 500px;
+	background:silver;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotatey(-90deg);
+    border-radius: 100px;
+}
+.card:hover .details{
+	transform: perspective(2000px) rotatey(0deg);
+}
+
+.card .details .center{
+	padding: 20px;
+	text-align: center;
+	background:silver;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 100px;
+}
+
+.card .details .center h1{
+	margin: 0;
+	padding: 0;
+	color: red;
+	line-height: 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+
+}
+
+.card .details .center h1 span{
+
+	font-size: 25px;
+	color:blue;
+}
+.card .details .center  p{
+	margin: 10px 0;
+	padding: 0;
+	color: blue;
+}
+
+.card .details .center ul{
+	margin: 10px auto 0;
+	padding: 0;
+	display: table;
+}
+
+
+.card .details .center ul li{
+	list-style: none;margin: 0 5px;
+	float: left;
+}
+
+.card .details .center ul li a{
+	display: block;
+	background: black;
+	color: red;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	transition: .5s;
+
+}
+
+.card .details .center ul li a:hover{
+	background:pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
