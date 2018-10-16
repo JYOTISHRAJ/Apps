@@ -15,8 +15,8 @@ body{
 			background:white;
 		}
 		.card .image{
-			width: 500px;
-			height: 500px;
+			width: 800px;
+			height: 800px;
 			overflow: hidden;
 			border-radius: 100px;
 		}
@@ -34,10 +34,10 @@ body{
 		}
 .card .details{
 	position: absolute;
-	top: 0;
+	top:0px;
 	left: 0;
-	width: 500px;
-	height: 500px;
+	width: 800px;
+	height: 800px;
 	background:silver;
     transition: .5s;
     transform-origin: left;
